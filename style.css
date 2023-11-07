@@ -1,6 +1,46 @@
+/*
+
 *
 {
     margin: 0;
     padding: O;
     box-sizing: border-box;
+}
+.parent{
+    height: 300px;
+    max-width: 500px;
+    border: 3px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    /*display: grid;
+    place-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    
+}
+.enfant{
+    min-height: 100px;
+    min-width: 100px;
+    background-color: green;
+}
+*/
+
+/*commenataire css*/
+
+.box{
+    height: 80px;
+    width: 80px;
+    background: blue;
+    
+}
+.box
+#checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#checkbox:checked ~ .box{
+    background: red;
 }
